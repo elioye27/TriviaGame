@@ -1,0 +1,64 @@
+body, html {
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 55px;
+   
+}
+
+h1{
+	font: 50px arial, times bold;
+	color:#00cc00;
+    margin-bottom: 50px;
+}
+
+
+p{
+	font: 30px arial, times bold;
+	margin-bottom: 25px;
+	padding-top: 25px;
+}
+
+.form-check-label{
+	font: 20px arial, times;
+}
+
+
+#done {
+    font: 50px bold;
+    margin-top: 30px;
+    width: 300px;
+    padding-bottom: 100px;
+    height: 120px;
+}
+
+
+/* The animation code */
+@keyframes slide {
+     0%   {background-color: red;}
+    25%  {background-color: green;}
+    50%  {background-color: purple;}
+    100% {background-color: #0069d9;}
+}
+
+/* The element to apply the animation to */
+h2 {
+    width: 575px;
+    height: 80px;
+    padding: 5px;
+    margin: auto;
+    font-size: 55px;
+    color: white;
+    border-radius: 15px; 
+    background-color: #0069d9;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
